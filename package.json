@@ -1,6 +1,7 @@
 {
   "scripts": {
-    "start": "nodemon index"
+    "start": "SET \"NODE_ENV=staging\" && node index",
+    "production": "SET \"NODE_ENV=production\" && node index"
   },
   "dependencies": {
     "eslint": "^8.57.0",
