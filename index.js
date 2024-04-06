@@ -8,9 +8,9 @@ const data = require('./lib/data')
 const app = {};
 
 //testing file system
-data.create('test','newFile', {'name':'Bangladesh', 'language':'Bangla'}, (err) => {
-  console.log(`error was`, err);
-})
+// data.create('test','newFile', {'name':'Bangladesh', 'language':'Bangla'}, (err) => {
+//   console.log(`error was`, err);
+// })
 
 // data.read('test','newFile', (err,result) => {
 //   console.log(result, err);
